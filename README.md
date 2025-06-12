@@ -24,12 +24,12 @@ bash
 python health_tracker.py
 Make sure health_tracker.py is in the project root folder.
 
-🧪 Requirements
+## 🧪 Requirements
 Python 3.10+
 Tkinter (usually comes with Python)
 Standard libraries: re, datetime
 To install tkinter (if not installed):
 pip install tk
 
-📜 License
+📜 
 This project is licensed under the MIT License.
