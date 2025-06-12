@@ -1,20 +1,35 @@
 # 🧠 Health Tracker Bot
+A smart and simple chatbot that helps you track your daily health activities like drinking water, walking, eating calories, sleeping, and more — using rule-based NLP and a clean GUI built with Tkinter.
 
-A simple health tracker bot using Python, Tkinter, and NLP.
+## 🧠 Features
+- 💬 Understands natural language health inputs
+- 🧮 Tracks metrics like:
+  - Water intake
+  - Step count
+  - Calorie consumption
+  - Sleep duration
+  - Weight
+- 🖼️ Simple and responsive Tkinter-based GUI
+- 📝 Real-time display of tracked data
 
-## Features
-- Natural language input parsing (e.g. "I drank 2 liters of water")
-- Logs sleep, water intake, steps, exercise
-- Shows daily summary
-- Simple GUI using Tkinter
+## 📸 Example Inputs
+I drank 2 liters of water
+I walked 4000 steps
+I consumed 1800 calories
+I slept for 7 hours
+My weight is 70 kg
 
-## Requirements
-- Python 3.10+
-- SpaCy
-- Pandas
+## 🚀 How to Run
+bash
+python health_tracker.py
+Make sure health_tracker.py is in the project root folder.
 
-## Setup
-```bash
-pip install spacy pandas
-python -m spacy download en_core_web_sm
-python main.py
+🧪 Requirements
+Python 3.10+
+Tkinter (usually comes with Python)
+Standard libraries: re, datetime
+To install tkinter (if not installed):
+pip install tk
+
+📜 License
+This project is licensed under the MIT License.
