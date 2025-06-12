@@ -11,7 +11,7 @@ def parse_health_input(text):
         'sleep': ['sleep', 'slept', 'napped'],
         'water': ['water', 'drank'],
         'steps': ['walked', 'steps'],
-        'exercise': ['ran', 'jogged', 'gym', 'workout'],
+        'exercise': ['run', 'jogged', 'gym', 'workout'],
     }
 
     # Detect quantity
